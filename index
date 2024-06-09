@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+</style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <!-- main heading -->
+    <h1>HTML MCQs</h1>        
+<form action="#">
+    <!-- question 1 start -->
+    <h2>1) HTML stands for -</h2>
+         <ol type="a">
+             <li><input type="radio" name="Q1" id="Q1O1"  value="HighText Machine Language">
+                <label for="Q1O1">HighText Machine Language</label></li>
+
+        <li><input type="radio" id="Q1O2" name="Q1" value="HyperText and links Markup Language">
+            <label for="Q1O2">HyperText and links Markup Language</label></li>
+    
+         <li><input type="radio" id="Q1O3" name="Q1" value="HyperText Markup Language">
+            <label for="Q1O3">HyperText Markup Language</label></li>
+
+        <li><input type="radio" id="Q1O4" name="Q1" value="None of these">
+            <label for="Q1O4">None of these</label></li>
+    </ol>
+    <!-- question 1 end -->
+
+
+    <!-- question 2 start -->
+    <h2>2) The correct sequence of HTML tags for starting a webpage is -</h2>
+         <ol type="a">
+             <li><input type="radio" name="q2" id="Q2O1"  value="Head, Title, HTML, body">
+                <label for="Q2O1">Head, Title, HTML, body</label></li>
+
+        <li><input type="radio" id="Q2O2" name="q2" value="HTML, Body, Title, Head">
+            <label for="Q2O2">HTML, Body, Title, Head</label></li>
+    
+         <li><input type="radio" id="Q2O3" name="q2" value="HTML, Head, Title, Body">
+            <label for="Q2O3">HTML, Head, Title, Body</label></li>
+
+        <li><input type="radio" id="Q2O4" name="q2" value="HTML, Head, Title, Body">
+            <label for="Q2O4">HTML, Head, Title, Body</label></li>
+    </ol>
+    <!-- question 2 end -->
+
+
+    <!-- question 3 start -->
+    <h2>3) Which of the following element is responsible for making the text bold in HTML?</h2>
+         <ol type="a">
+             <li><input type="radio" name="Q3" id="Q3O1"  value="<pre>">
+                <label for="Q3O1">&ltpre&gt</label></li>
+
+        <li><input type="radio" id="Q3O2" name="Q3" value="<a>">
+            <label for="Q3O2">&lta&gt</label></li>
+    
+         <li><input type="radio" id="Q3O3" name="Q3" value="<b>">
+            <label for="Q3O3">&ltb&gt</label></li>
+
+        <li><input type="radio" id="Q3O4" name="Q3" value="<br>">
+            <label for="Q3O4">&ltbr&gt</label></li>
+    </ol>
+    <!-- question 3 end -->
+
+
+ <!-- question 4 start -->
+    <h2>4) Which of the following tag is used for inserting the largest heading in HTML?</h2>
+         <ol type="a">
+             <li><input type="radio" name="Q4" id="Q4O1"  value="<h3>">
+                <label for="Q4O1">&lth3&gt</label></li>
+
+        <li><input type="radio" id="Q4O2" name="Q4" value="<h1>">
+            <label for="Q4O2">&lth1&gt</label></li>
+    
+         <li><input type="radio" id="Q4O3" name="Q4" value="<h5>">
+            <label for="Q4O3">&lth5&gt</label></li>
+
+        <li><input type="radio" id="Q4O4" name="Q4" value="<h6>">
+            <label for="Q4O4">&lth6&gt</label></li>
+    </ol>
+    <!-- question 4 end -->
+
+     <!-- question 5 start -->
+     <h2>5) Which of the following tag is used to insert a line-break in HTML?</h2>
+     <ol type="a">
+         <li><input type="radio" name="Q5" id="Q5O1"  value="<br>">
+            <label for="Q5O1">&ltbr&gt</label></li>
+
+    <li><input type="radio" id="Q5O2" name="Q5" value="<a>">
+        <label for="Q5O2">&lta&gt</label></li>
+
+     <li><input type="radio" id="Q5O3" name="Q5" value="<pre>">
+        <label for="Q5O3">&ltpre&gt</label></li>
+
+    <li><input type="radio" id="Q5O4" name="Q5" value="<b>">
+        <label for="Q5O4">&ltb&gt</label></li>
+</ol>
+<!-- question 5 end -->
+
+
+
+ <!-- question 6 start -->
+ <h2>6) How to create an unordered list (a list with the list items in bullets) in HTML?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q6" id="Q6O1"  value="<ul>">
+        <label for="Q6O1">&ltul&gt</label></li>
+
+<li><input type="radio" id="Q6O2" name="Q6" value="<ol>">
+    <label for="Q6O2">&ltil&gt</label></li>
+
+ <li><input type="radio" id="Q6O3" name="Q6" value="<li>">
+    <label for="Q6O3">&ltli&gt</label></li>
+
+<li><input type="radio" id="Q6O4" name="Q6" value="<i>">
+    <label for="Q6O4">&lti&gt</label></li>
+</ol>
+<!-- question 6 end -->
+
+
+ <!-- question 7 start -->
+ <h2>7) Which character is used to represent the closing of a tag in HTML?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q7" id="Q7O1"  value="\">
+        <label for="Q7O1">\</label></li>
+
+<li><input type="radio" id="Q7O2" name="Q7" value="!">
+    <label for="Q7O2">!</label></li>
+
+ <li><input type="radio" id="Q7O3" name="Q7" value="/">
+    <label for="Q7O3">/</label></li>
+
+<li><input type="radio" id="Q7O4" name="Q7" value=".">
+    <label for="Q7O4">.</label></li>
+</ol>
+<!-- question 7 end -->
+
+
+ <!-- question 8 start -->
+ <h2>8) How to create a hyperlink in HTML?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q8" id="Q8O1"  value="<a href ='www.javatpoint.com'> javaTpoint.com </a>">
+        <label for="Q8O1"> &lta href = "www.javatpoint.com"> javaTpoint.com &lt/a&gt </label></li>
+
+<li><input type="radio" id="Q8O2" name="Q8" value="<a url = 'www.javatpoint.com' javaTpoint.com /a>">
+    <label for="Q8O2">&lta url = "www.javatpoint.com" javaTpoint.com /a></label></li>
+
+ <li><input type="radio" id="Q8O3" name="Q8" value="<a link = 'www.javatpoint.com'> javaTpoint.com </a>">
+    <label for="Q8O3">&lt;a link = "www.javatpoint.com"&gt; javaTpoint.com &lt;/a&gt; </label></li>
+
+<li><input type="radio" id="Q8O4" name="Q8" value="<a> www.javatpoint.com <javaTpoint.com /a>">
+    <label for="Q8O4">&lta&gt www.javatpoint.com &lt;javaTpoint.com /a&gt;</label></li>
+</ol>
+<!-- question 8 end -->
+
+
+ <!-- question 9 start -->
+ <h2>9) How to create an ordered list (a list with the list items in numbers) in HTML?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q9" id="Q9O1"  value="<ul>">
+        <label for="Q9O1">&lt;ul&gt;</label></li>
+
+<li><input type="radio" id="Q9O2" name="Q9" value="<ol>">
+    <label for="Q9O2">&lt;ol&gt;</label></li>
+
+ <li><input type="radio" id="Q9O3" name="Q9" value="<li>">
+    <label for="Q9O3">&lt;li&gt;</label></li>
+
+<li><input type="radio" id="Q9O4" name="Q9" value="<i>">
+    <label for="Q9O4">&lt;i&gt;</label></li>
+</ol>
+<!-- question 9 end -->
+
+
+ <!-- question 10 start -->
+ <h2>10) Which of the following element is responsible for making the text italic in HTML?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q10" id="Q10O1"  value="<i>">
+        <label for="Q10O1">&lt;i&gt;</label></li>
+
+<li><input type="radio" id="Q10O2" name="Q10" value="<italic>">
+    <label for="Q10O2">&lt;italic&gt;</label></li>
+
+ <li><input type="radio" id="Q10O3" name="Q10" value="<it>">
+    <label for="Q10O3">&lt;it&gt;</label></li>
+
+<li><input type="radio" id="Q10O4" name="Q10" value="<pre>">
+    <label for="Q10O4">&lt;per&gt;</label></li>
+</ol>
+<!-- question 10 end -->
+
+
+
+ <!-- question 11 start -->
+ <h2>11) How to insert an image in HTML?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q11" id="Q11O1"  value="<img href = 'jtp.png' />">
+        <label for="Q11O1">&lt;img href = "jtp.png" /></label></li>
+
+<li><input type="radio" id="Q11O2" name="Q11" value="<img url = 'jtp.png' />">
+    <label for="Q11O2">&lt;img url = "jtp.png" /></label></li>
+
+ <li><input type="radio" id="Q11O3" name="Q11" value="<img link = 'jtp.png' />">
+    <label for="Q11O3">&lt;img link = "jtp.png" /></label></li>
+
+<li><input type="radio" id="Q11O4" name="Q11" value="<img src = 'jtp.png' />">
+    <label for="Q11O4">&lt;img src = "jtp.png" /></label></li>
+</ol>
+<!-- question 11 end -->
+
+
+         <!-- question 12 start -->
+    <h2>12) How to add a background color in HTML?</h2>
+    <ol type="a">
+        <li><input type="radio" name="Q12" id="Q12O1"  value="<marquee bg color: 'red'>">
+           <label for="Q12O1">&lt;marquee bg color: "red"></label></li>
+
+   <li><input type="radio" id="Q12O2" name="Q12" value="<marquee bg-color = 'red'>">
+       <label for="Q12O2">&lt;marquee bg-color = "red"></label></li>
+
+    <li><input type="radio" id="Q12O3" name="Q12" value="<marquee bgcolor = 'red'>">
+       <label for="Q12O3">&lt;marquee bgcolor = "red"></label></li>
+
+   <li><input type="radio" id="Q12O4" name="Q12" value="<marquee color = 'red'>">
+       <label for="Q12O4">&lt;marquee color = "red"></label></li>
+</ol>
+<!-- question 12 end -->
+
+
+ <!-- question 13 start -->
+ <h2>13) Which of the following tag is used to make the underlined text?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q13" id="Q13O1"  value="<i>">
+        <label for="Q13O1">&lt;i&gt;</label></li>
+
+<li><input type="radio" id="Q13O2" name="Q13" value="<ul>">
+    <label for="Q13O2">&lt;ul&gt;</label></li>
+
+ <li><input type="radio" id="Q13O3" name="Q13" value="<u>">
+    <label for="Q13O3">&lt;u&gt;</label></li>
+
+<li><input type="radio" id="Q13O4" name="Q13" value="<pre>">
+    <label for="Q13O4">&lt;pre&gt;</label></li>
+</ol>
+<!-- question 13 end -->
+
+
+ <!-- question 14 start -->
+ <h2>14) How to create a checkbox in HTML?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q14" id="Q14O1"  value="<input type = 'checkbox'>">
+        <label for="Q14O1">&lt;input type = "checkbox"></label></li>
+
+<li><input type="radio" id="Q14O2" name="Q14" value="<input type = 'button'>">
+    <label for="Q14O2">&lt;input type = "button"></label></li>
+
+ <li><input type="radio" id="Q14O3" name="Q14" value="<checkbox>">
+    <label for="Q14O3">&lt;checkbox></label></li>
+
+<li><input type="radio" id="Q14O4" name="Q14" value="<input type = 'check'>">
+    <label for="Q14O4">&lt;input type = "check"></label></li>
+</ol>
+<!-- question 14 end -->
+
+ <!-- question 15 start -->
+ <h2>15) Which of the following tag is used to define options in a drop-down selection list?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q15" id="Q15O1"  value="<select>">
+        <label for="Q15O1">&lt;select></label></li>
+
+<li><input type="radio" id="Q15O2" name="Q15" value="<list>">
+    <label for="Q15O2">&lt;list></label></li>
+
+ <li><input type="radio" id="Q15O3" name="Q15" value="<dropdown>">
+    <label for="Q15O3">&lt;dropdown></label></li>
+
+<li><input type="radio" id="Q15O4" name="Q15" value="<option>">
+    <label for="Q15O4">&lt;option></label></li>
+</ol>
+<!-- question 15 end -->
+
+ <!-- question 16 start -->
+ <h2>16) Which of the following tag is used to add rows in the table?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q16" id="Q16O1"  value="<td> and </td>">
+        <label for="Q16O1">&lt;td> and &lt;/td></label></li>
+
+<li><input type="radio" id="Q16O2" name="Q16" value="<th> and </th>">
+    <label for="Q16O2">&lt;th> and &lt;/th></label></li>
+
+ <li><input type="radio" id="Q16O3" name="Q16" value="<tr> and </tr>">
+    <label for="Q16O3">&lt;tr> and &lt;/tr></label></li>
+
+<li><input type="radio" id="Q16O4" name="Q16" value="None of the above">
+    <label for="Q16O4">None of the above</label></li>
+</ol>
+<!-- question 16 end -->
+
+ <!-- question 17 start -->
+ <h2>17) The &lt;hr> tag in HTML is used for -</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q17" id="Q17O1"  value="new line">
+        <label for="Q17O1">new line</label></li>
+
+<li><input type="radio" id="Q17O2" name="Q17" value="vertical ruler">
+    <label for="Q17O2">vertical ruler</label></li>
+
+ <li><input type="radio" id="Q17O3" name="Q17" value="new paragraph">
+    <label for="Q17O3">new paragraph</label></li>
+
+<li><input type="radio" id="Q17O4" name="Q17" value="horizontal ruler">
+    <label for="Q17O4">horizontal ruler</label></li>
+</ol>
+<!-- question 17 end -->
+
+ <!-- question 18 start -->
+ <h2>18) Which of the following attribute is used to provide a unique name to an element?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q18" id="Q18O1"  value="class">
+        <label for="Q18O1">class</label></li>
+
+<li><input type="radio" id="Q18O2" name="Q18" value="id">
+    <label for="Q18O2">id</label></li>
+
+ <li><input type="radio" id="Q18O3" name="Q18" value="type">
+    <label for="Q18O3">type</label></li>
+
+<li><input type="radio" id="Q18O4" name="Q18" value="None of the above">
+    <label for="Q18O4">None of the above</label></li>
+</ol>
+<!-- question 18 end -->
+
+
+ <!-- question 19 start -->
+ <h2>19) Which of the following is the container for &lt;tr>, &lt;th>, and &lt;td> ?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q19" id="Q19O1"  value="<data>">
+        <label for="Q19O1">&lt;data></label></li>
+
+<li><input type="radio" id="Q19O2" name="Q19" value="<table>">
+    <label for="Q19O2">&lt;table></label></li>
+
+ <li><input type="radio" id="Q19O3" name="Q19" value="">
+    <label for="Q19O3">&lt;group></label></li>
+
+<li><input type="radio" id="Q19O4" name="Q19" value="All of the above">
+    <label for="Q19O4">All of the above</label></li>
+</ol>
+<!-- question 19 end -->
+
+
+ <!-- question 20 start -->
+ <h2>20) Which of the following is the paragraph tag in HTML?</h2>
+ <ol type="a">
+     <li><input type="radio" name="Q20" id="Q20O1"  value="<p>">
+        <label for="Q20O1">&lt;p></label></li>
+
+<li><input type="radio" id="Q20O2" name="Q20" value="<b>">
+    <label for="Q20O2">&lt;b></label></li>
+
+ <li><input type="radio" id="Q20O3" name="Q20" value="<pre>">
+    <label for="Q20O3">&lt;pre></label></li>
+
+<li><input type="radio" id="Q20O4" name="Q20" value="None of the above">
+    <label for="Q20O4">None of the above</label></li>
+</ol>
+<!-- question 20 end -->
+    
+</form>
+    
+</body>
+</html>
