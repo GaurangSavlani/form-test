@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
+    #panel-1,#panel-2,#panel-3,#panel-3,#panel-4,#panel-5,#panel-6,#panel-7,#panel-8,#panel-9,#panel-10,#panel-11,#panel-12,#panel-13,#panel-14,#panel-15,#panel-16,#panel-17,#panel-18,#panel-19,#panel-20{
+        display: none;
+    }   
+
+    div{
+        border: 2px solid black;
+        padding: 20px;
+        background-color: aliceblue;
+        
+    }
+
+    .ansbtton{
+        
+    }
 
 </style>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="               crossorigin="anonymous"></script>
+
     <script>
+        // javascript code
        
              function CheckQ1(){
         //check if the correct option is selected
@@ -56,7 +73,170 @@
         }
         alert("Your Score is "+score);
     }
+
+   /* document.querySelector(".ansbtton").addEventListener("click", () => {
+        window.scroll(false.document.body.scrollHeight);
+    });*/
+
+   
         
+    </script>
+
+    <script>
+        //Jquery code
+        $(document).ready(function(){
+            $("#ansbtn-1").click(function(){
+                $("#panel-1").slideToggle("fast");
+            })
+        })
+
+
+         
+        $(document).ready(function(){
+            $("#ansbtn-2").click(function(){
+                $("#panel-2").slideToggle("fast");
+            })
+        })
+
+
+
+        $(document).ready(function(){
+            $("#ansbtn-3").click(function(){
+                $("#panel-3").slideToggle("fast");
+                event.preventDefault();
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-4").click(function(){
+                $("#panel-4").slideToggle("fast");
+                event.preventDefault();
+            })
+        })
+
+        $("#ansbtn-4").click(function(event){
+            
+          });
+
+
+        $(document).ready(function(){
+            $("#ansbtn-5").click(function(){
+                $("#panel-5").slideToggle("fast");
+                event.preventDefault();
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-6").click(function(){
+                $("#panel-6").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-7").click(function(){
+                $("#panel-7").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-8").click(function(){
+                $("#panel-8").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-9",).click(function(){
+                $("#panel-9 ").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-10").click(function(){
+                $("#panel-10").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-11").click(function(){
+                $("#panel-11").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-12").click(function(){
+                $("#panel-12").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-13").click(function(){
+                $("#panel-13").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-14").click(function(){
+                $("#panel-14").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-15").click(function(){
+                $("#panel-15").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-16").click(function(){
+                $("#panel-16").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-17").click(function(){
+                $("#panel-17").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-18").click(function(){
+                $("#panel-18").slideToggle("fast");
+            })
+        })
+
+
+        $(document).ready(function(){
+            $("#ansbtn-19").click(function(){
+                $("#panel-19").slideToggle("fast");
+            })
+        })
+
+
+         
+        $(document).ready(function(){
+            $("#ansbtn-20").click(function(){
+                $("#panel-20").slideToggle("fast");
+            })
+        })
+
+
+         
+
+
 
     </script>
 </head>
@@ -79,6 +259,15 @@
         <li><input type="radio" id="Q1O4" name="Q1" value="None of these">
             <label for="Q1O4">None of these</label></li>
     </ol>
+    <button id="ansbtn-1" class="ansbtton">Show Answer</button>
+    <div id="panel-1">
+       <p> Answer: (c) HyperText Markup Language </p>
+
+        Explanation: HTML is an acronym that stands for HyperText Markup Language, which is used for creating web pages and web applications. 
+        
+        HyperText simply means "Text within Text." A text has a link within it, is a hypertext. A markup language is a computer language that is used to apply layout and formatting conventions to a text document.
+    </div>
+
     <!-- question 1 end -->
 <!-- ================================================================================================================================ -->
     <!-- question 2 start -->
@@ -96,6 +285,12 @@
         <li><input type="radio" id="Q2O4" name="q2" value="HTML, Head, Title, Body">
             <label for="Q2O4">HTML, Head, Title, Body</label></li>
     </ol>
+    <button id="ansbtn-2" class="ansbtton">Show Answer</button>
+    <div id="panel-2">
+      <p>  Answer: (d) HTML, Head, Title, Body </p>
+
+        Explanation: The correct sequence of HTML tags to start a webpage is html, head, title, and body.
+    </div>
     <!-- question 2 end -->
 <!-- ================================================================================================================================ -->
     <!-- question 3 start -->
@@ -113,6 +308,12 @@
         <li><input type="radio" id="Q3O4" name="Q3" value="<br>">
             <label for="Q3O4">&ltbr&gt</label></li>
     </ol>
+    <button id="ansbtn-3" class="ansbtton">Show Answer</button>
+    <div id="panel-3">
+     <p>   Answer: (c) &lt;b> </p>
+
+            Explanation: The &lt;b> (bold tag) tag in HTML is used to display the written text in bold format.
+    </div>
     <!-- question 3 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 4 start -->
@@ -130,6 +331,12 @@
         <li><input type="radio" id="Q4O4" name="Q4" value="<h6>">
             <label for="Q4O4">&lth6&gt</label></li>
     </ol>
+    <button id="ansbtn-4" class="ansbtton">Show Answer</button>
+    <div id="panel-4">
+   <p>     Answer: (b) &lt;h1> </p>
+
+            Explanation: The &lt;h1> tag is used to insert the main heading or the highest level heading.
+    </div>
     <!-- question 4 end -->
 <!-- ================================================================================================================================ -->
      <!-- question 5 start -->
@@ -147,6 +354,12 @@
     <li><input type="radio" id="Q5O4" name="Q5" value="<b>">
         <label for="Q5O4">&ltb&gt</label></li>
 </ol>
+<button id="ansbtn-5" class="ansbtton">Show Answer</button>
+    <div id="panel-5">
+      <p>  Answer: (a) &lt;br></p>
+
+Explanation: The &lt;br> tag in the HTML document is used to create a line break in a text. If we place the &lt;br> tag in HTML code, then it works the same as pressing the enter key in a word processor.
+    </div>
 <!-- question 5 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 6 start -->
@@ -164,6 +377,12 @@
 <li><input type="radio" id="Q6O4" name="Q6" value="<i>">
     <label for="Q6O4">&lti&gt</label></li>
 </ol>
+<button id="ansbtn-6" class="ansbtton">Show Answer</button>
+    <div id="panel-6">
+   <p>     Answer: (a) &lt;ul></p>
+
+            Explanation: The &lt;ul> tag in HTML is used to display the list items in a bulleted format. There can be four types of an unordered list: disc, circle, square, and none.
+    </div>
 <!-- question 6 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 7 start -->
@@ -181,6 +400,12 @@
 <li><input type="radio" id="Q7O4" name="Q7" value=".">
     <label for="Q7O4">.</label></li>
 </ol>
+<button id="ansbtn-7" class="ansbtton">Show Answer</button>
+    <div id="panel-7">
+    <p>    Answer: (c) /  </p>
+
+Explanation: The forward-slash (/) character is used to indicate the closing of a tag in HTML.
+    </div>
 <!-- question 7 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 8 start -->
@@ -198,6 +423,12 @@
 <li><input type="radio" id="Q8O4" name="Q8" value="<a> www.javatpoint.com <javaTpoint.com /a>">
     <label for="Q8O4">&lta&gt www.javatpoint.com &lt;javaTpoint.com /a&gt;</label></li>
 </ol>
+<button id="ansbtn-8" class="ansbtton">Show Answer</button>
+    <div id="panel-8">
+      <p>  Answer: (a) &lt;a href = "www.javatpoint.com"> javaTpoint.com &lt;/a>  </p>
+
+Explanation: The anchor tag and the href attribute is used to create the link in HTML.
+    </div>
 <!-- question 8 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 9 start -->
@@ -215,6 +446,12 @@
 <li><input type="radio" id="Q9O4" name="Q9" value="<i>">
     <label for="Q9O4">&lt;i&gt;</label></li>
 </ol>
+<button id="ansbtn-9" class="ansbtton">Show Answer</button>
+    <div id="panel-9">
+    <p>    Answer: (b) &lt;ol>  </p>
+
+            Explanation: The &lt;ol> tag in HTML is used to display the list items in a numbered format. There can be different types of numbered list: numeric number, capital alphabet, small alphabet, etc.
+    </div>
 <!-- question 9 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 10 start -->
@@ -232,6 +469,12 @@
 <li><input type="radio" id="Q10O4" name="Q10" value="<pre>">
     <label for="Q10O4">&lt;per&gt;</label></li>
 </ol>
+<button id="ansbtn-10" class="ansbtton">Show Answer</button>
+    <div id="panel-10">
+      <p>  Answer: (a) &lt;i>   </p>
+
+            Explanation: The &lt;i> (italic tag) tag in HTML is used to display the written text in italic format.
+    </div>
 <!-- question 10 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 11 start -->
@@ -249,6 +492,12 @@
 <li><input type="radio" id="Q11O4" name="Q11" value="<img src = 'jtp.png' />">
     <label for="Q11O4">&lt;img src = "jtp.png" /></label></li>
 </ol>
+<button id="ansbtn-11" class="ansbtton">Show Answer</button>
+    <div id="panel-11">
+    <p>    Answer: (d) &lt;img src = "jtp.png" />   </p>
+
+Explanation: The img tag and the src attribute is used to display an image on the webpage.
+    </div>
 <!-- question 11 end -->
 <!-- ================================================================================================================================ -->
          <!-- question 12 start -->
@@ -266,6 +515,12 @@
    <li><input type="radio" id="Q12O4" name="Q12" value="<marquee color = 'red'>">
        <label for="Q12O4">&lt;marquee color = "red"></label></li>
 </ol>
+<button id="ansbtn-12" class="ansbtton">Show Answer</button>
+    <div id="panel-12">
+    <p>    Answer: (c) &lt;marquee bgcolor = "red">  </p>
+
+            Explanation: The bgcolor attribute is used to set the background color of an HTML element.
+    </div>
 <!-- question 12 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 13 start -->
@@ -283,6 +538,12 @@
 <li><input type="radio" id="Q13O4" name="Q13" value="<pre>">
     <label for="Q13O4">&lt;pre&gt;</label></li>
 </ol>
+<button id="ansbtn-13" class="ansbtton">Show Answer</button>
+    <div id="panel-13">
+     <p>  Answer: (c) &lt;u>  </p>
+
+            Explanation: The &lt;u> (underline tag) tag in HTML is used to display the underlined text. It rendered as a solid underlined text, but it can be changed using CSS properties.
+    </div>
 <!-- question 13 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 14 start -->
@@ -300,6 +561,12 @@
 <li><input type="radio" id="Q14O4" name="Q14" value="<input type = 'check'>">
     <label for="Q14O4">&lt;input type = "check"></label></li>
 </ol>
+<button id="ansbtn-14" class="ansbtton">Show Answer</button>
+    <div id="panel-14">
+    <p>   Answer: (a) &lt;input type = "checkbox">  </p>
+
+Explanation: To create a checkbox in HTML, we have to use the &lt;input> tag and give the value checkbox to its type attribute.
+    </div>
 <!-- question 14 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 15 start -->
@@ -317,6 +584,12 @@
 <li><input type="radio" id="Q15O4" name="Q15" value="<option>">
     <label for="Q15O4">&lt;option></label></li>
 </ol>
+<button id="ansbtn-15" class="ansbtton">Show Answer</button>
+    <div id="panel-15">
+ <p>       Answer: (d) &lt;option>   </p>
+
+            Explanation: The &lt;option> tag in HTML is used to define options in a dropdown list within &lt;select> or &lt;datalist> element. A dropdown list must have at least one &lt;option> element.
+    </div>
 <!-- question 15 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 16 start -->
@@ -334,6 +607,12 @@
 <li><input type="radio" id="Q16O4" name="Q16" value="None of the above">
     <label for="Q16O4">None of the above</label></li>
 </ol>
+<button id="ansbtn-16" class="ansbtton">Show Answer</button>
+    <div id="panel-16">
+      <p> Answer: (c) &lt;tr> and &lt;/tr>  </p>
+
+Explanation: The &lt;tr> tag in HTML is used to define the rows in the table. It can consist one or more &lt;th> head cells and &lt;td> data cells to define a single row of HTML table.
+    </div>
 <!-- question 16 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 17 start -->
@@ -351,6 +630,12 @@
 <li><input type="radio" id="Q17O4" name="Q17" value="horizontal ruler">
     <label for="Q17O4">horizontal ruler</label></li>
 </ol>
+<button id="ansbtn-17" class="ansbtton">Show Answer</button>
+    <div id="panel-17">
+     <p>   Answer: (d) horizontal ruler </p>
+
+Explanation: The &lt;hr> tag is used to specify a paragraph-level thematic break in HTML document. It is called a horizontal rule and draws a horizontal line.
+    </div>
 <!-- question 17 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 18 start -->
@@ -368,6 +653,12 @@
 <li><input type="radio" id="Q18O4" name="Q18" value="None of the above">
     <label for="Q18O4">None of the above</label></li>
 </ol>
+<button id="ansbtn-18" class="ansbtton">Show Answer</button>
+    <div id="panel-18">
+    <p>    Answer: (b) id  </p>
+
+Explanation: The id attribute is used to specify a unique id for an element of the HTML document. It allocates the unique identifier which can be used by the JavaScript and CSS to perform certain tasks.
+    </div>
 <!-- question 18 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 19 start -->
@@ -385,6 +676,12 @@
 <li><input type="radio" id="Q19O4" name="Q19" value="All of the above">
     <label for="Q19O4">All of the above</label></li>
 </ol>
+<button id="ansbtn-19" class="ansbtton" >Show Answer</button>
+    <div id="panel-19">
+    <p>    Answer: (b) &lt;table>  </p>
+
+            Explanation: The &lt;table> tag in HTML, is generally used to display data in tabular format. We can create a table to display the data in the tabular form using the &lt;table> element, with the help of &lt;tr>, &lt;th>, and &lt;td> elements.
+    </div>
 <!-- question 19 end -->
 <!-- ================================================================================================================================ -->
  <!-- question 20 start -->
@@ -402,6 +699,12 @@
 <li><input type="radio" id="Q20O4" name="Q20" value="None of the above">
     <label for="Q20O4">None of the above</label></li>
 </ol>
+<button id="ansbtn-20" class="ansbtton">Show Answer</button>
+    <div id="panel-20">
+    <p>    Answer: (a) <p>  </p>
+
+            Explanation: The &lt;p> (paragraph tag) tag in HTML is used to define a paragraph in a webpage. The HTML &lt;p> tag indicates the starting of new paragraph.
+    </div>
 <!-- question 20 end -->
 
 
